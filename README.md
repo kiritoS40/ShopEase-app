@@ -71,6 +71,6 @@ const updateProductInHashMap = async (productId) => {
 
 // Fetch products and store in HashMap during server startup
 fetchProducts();
-
+```
 
 The code above  implements a HashMap (productHashMap) to maintain unique product entries based on various attributes like name, description, images, category, and price. This HashMap acts as an in-memory storage structure on the backend server. It efficiently stores and retrieves products by generating a unique hash using these attributes as the key. The functions addToProductHashMap, deleteProductFromHashMap, and updateProductInHashMap handle adding, deleting, and updating products within this HashMap. The code interacts with the database, fetching products from it during server startup (fetchProducts) and when filtering by category (fetchCategoryWiseProductToHashMap). This HashMap acts as a supplementary, optimized storage layer, ensuring data uniqueness, and facilitating faster retrieval and manipulation of product information within the backend server alongside the database.
