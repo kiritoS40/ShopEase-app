@@ -8,13 +8,13 @@ ShopEase is an all-in-one e-commerce application aimed at simplifying your onlin
 ## Technologies Used
 
 ### Front End
-[![Front End](https://skillicons.dev/icons?i=flutter,dart)](https://skillicons.dev)
+[![Front End](https://skillicons.dev/icons?i=flutter,dart&theme=light)](https://skillicons.dev)
 
 ### Back End
-[![Back End](https://skillicons.dev/icons?i=js,nodejs,express)](https://skillicons.dev)
+[![Back End](https://skillicons.dev/icons?i=js,nodejs,express&theme=light)](https://skillicons.dev)
 
 ### Database
-[![Back End](https://skillicons.dev/icons?i=mongodb)](https://skillicons.dev)
+[![Back End](https://skillicons.dev/icons?i=mongodb&theme=light)](https://skillicons.dev)
 
 ## Utilizing HashMap for Efficient Product Management
 
