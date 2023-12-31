@@ -14,7 +14,7 @@ ShopEase is an all-in-one e-commerce application aimed at simplifying your onlin
 [![Back End](https://skillicons.dev/icons?i=js,nodejs,express)](https://skillicons.dev)
 
 ### Database
-- [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Back End](https://skillicons.dev/icons?i=mongodb)](https://skillicons.dev)
 
 ## Utilizing HashMap for Efficient Product Management
 
