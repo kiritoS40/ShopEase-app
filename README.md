@@ -1,4 +1,4 @@
-# shopease
+# ShopEase
 
 A new Flutter project.
 
