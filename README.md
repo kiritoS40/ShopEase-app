@@ -8,7 +8,7 @@ ShopEase is an all-in-one e-commerce application aimed at simplifying your onlin
 ## Technologies Used
 
 ### Front End
-- [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev/)
+- [![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
 
 ### Back End
 - [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
