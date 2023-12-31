@@ -1,6 +1,6 @@
 # ShopEase: Your Effortless Shopping Companion
 
-![ShopEase Image]([https://res.cloudinary.com/dnkkh5vuz/image/upload/v1704032008/nrbiurn3c1ap2xklfncx.jpg](https://res.cloudinary.com/dnkkh5vuz/image/upload/v1704025338/nejowcqnjcxsr6dmn6qq.png))
+![ShopEase Image](https://res.cloudinary.com/dnkkh5vuz/image/upload/v1704032008/nrbiurn3c1ap2xklfncx.jpg)
 
 ShopEase is an all-in-one e-commerce application aimed at simplifying your online shopping journey. With Flutter for a sleek interface, Node.js and Express.js for a robust backend, and MongoDB for secure data storage, it ensures a smooth user experience. Utilizing HashMap for streamlined operations, ShopEase focuses on making shopping easier for both customers and admin (sellers).
 
