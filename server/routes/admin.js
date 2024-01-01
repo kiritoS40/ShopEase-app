@@ -23,6 +23,10 @@ const fetchProducts = async () => {
     }
 };
 
+const getProductFromHashMap = (productKey) => {
+    return productHashMap.get(productKey);
+};
+
 const fetchCategoryWiseProductToHashMap = async (category) => {
     try {
         const categoryProducts = await Product.find({ 'category': category });
