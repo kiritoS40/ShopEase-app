@@ -6,6 +6,7 @@ const Order = require("../model/order");
 const adminRouter = express.Router();
 
 const productHashMap = new Map(); // HashMap to store product uniqueness
+
 const addToProductHashMap = (product) => {
     const productHash = `${product.name}_${product.description}_${product.images}_${product.category}_${product.price}`;
     productHashMap.set(productHash, product);
@@ -55,21 +56,15 @@ const updateProductInHashMap = async (productId) => {
 // Fetch products and store in HashMap during server startup
 fetchProducts();
 
+// Add product to HashMap after adding product to DB
 adminRouter.post("/admin/add-product", admin, async (req, res) => {
     try {
         const { name, description, images, quantity, price, category } = req.body;
 
-        const productHash = `${name}_${description}_${images}_${category}_${price}`;
-
-        if (productHashMap.has(productHash)) {
-            res.status(400).json({ error: "Duplicate product" });
-            return;
-        }
-
         let product = new Product({ name, description, images, quantity, price, category });
         product = await product.save();
 
-        addToProductHashMap(product); // Add new product to HashMap
+        addToProductHashMap(product); // Add non-duplicate product to HashMap
 
         res.json(product);
     } catch (err) {
@@ -77,6 +72,7 @@ adminRouter.post("/admin/add-product", admin, async (req, res) => {
     }
 });
 
+// Get product from HashMap
 adminRouter.get("/admin/get-products", admin, async (req, res) => {
     try {
         if (productHashMap.size === 0) {
